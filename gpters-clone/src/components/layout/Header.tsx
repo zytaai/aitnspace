@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -7,15 +8,12 @@ import Image from 'next/image';
 const Header = () => {
   return (
     <header className="border-b">
-      <div className="bg-primary py-1 px-4 text-xs text-white text-center">
-        <span>🚀 AI스터디 16기 신청구매하고 최대 할인혜택 받기</span>
-      </div>
       <div className="flex items-center justify-between py-3 px-4">
         <div className="flex items-center space-x-6">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
-              GP
+              AI
             </div>
           </Link>
 
@@ -23,12 +21,6 @@ const Header = () => {
           <nav className="flex items-center space-x-4">
             <Link href="/" className="text-sm font-medium">
               커뮤니티
-            </Link>
-            <Link href="/ai-study-list" className="text-sm font-medium">
-              AI스터디
-            </Link>
-            <Link href="/study-platform" className="text-sm font-medium">
-              스터디장 지원
             </Link>
           </nav>
         </div>
