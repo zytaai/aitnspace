@@ -85,14 +85,8 @@ export default function Home() {
           </h1>
         </div>
 
-        {/* Philosophy messages */}
-        <div className="max-w-3xl mx-auto space-y-8 text-center mb-16">
-          <div className="space-y-6 font-light">
-            <p className="text-xl text-gray-700 leading-relaxed">
-              스스로 알아차리는 자각은 변화의 시작
-            </p>
-            <p className="text-xl text-gray-700 leading-relaxed">
-              자각을 통한 창의성과 창조성, 생각과 방법에 대한 자유로움
+        {/* Main Content */}
+        <div className="max-w-3xl mx-auto mb-16"> 창의성과 창조성, 생각과 방법에 대한 자유로움
             </p>
             <p className="text-xl text-gray-700 leading-relaxed">
               변화의 시대에는 자유로운 생각 방식 필요
