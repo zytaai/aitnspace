@@ -27,12 +27,8 @@ export default function RootLayout({
             <Sidebar />
             <main className="flex-1 p-4 bg-[#f5f5f6]">{children}</main>
           </div>
-          <footer className="px-6 py-4 text-xs text-center text-mint-gray border-t">
-            <div>
-              <Link href="/terms" className="mx-1 hover:underline">Terms</Link>
-              <Link href="/privacy" className="mx-1 hover:underline">Privacy</Link>
-              <span className="mx-1">Copyright 2025</span>
-            </div>
+          <footer className="px-6 py-3 text-xs text-center text-gray-500 border-t">
+            <span>Copyright 2025</span>
           </footer>
         </div>
       </body>
