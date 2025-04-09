@@ -50,7 +50,6 @@ const Sidebar = () => {
         {/* Activities Section */}
         <div className="mt-6">
           <h3 className="px-6 text-xs font-medium text-gray-500 uppercase tracking-wider">
-            커뮤니티 활동 🔥
           </h3>
           <nav className="mt-2 space-y-1 px-4">
             <Link
@@ -94,7 +93,7 @@ const Sidebar = () => {
           <nav className="mt-2 space-y-1 px-4">
             <Link
               href="/write"
-              className="flex items-center space-x-2 px-3 py-2 text-sm rounded-md bg-mint hover:bg-mint/80 text-white font-medium"
+              className="flex items-center space-x-2 px-3 py-2 text-sm rounded-md bg-blue-500 hover:bg-blue-600 text-white font-medium"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,18 +110,6 @@ const Sidebar = () => {
                 />
               </svg>
               <span>새 글 작성하기</span>
-            </Link>
-            <Link
-              href="/my-posts"
-              className="flex items-center space-x-2 px-3 py-2 text-sm rounded-md hover:bg-gray-100"
-            >
-              <span>내가 쓴 글</span>
-            </Link>
-            <Link
-              href="/drafts"
-              className="flex items-center space-x-2 px-3 py-2 text-sm rounded-md hover:bg-gray-100"
-            >
-              <span>임시저장</span>
             </Link>
           </nav>
         </div>

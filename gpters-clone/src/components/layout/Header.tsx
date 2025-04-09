@@ -20,7 +20,7 @@ const Header = () => {
           {/* Main Navigation */}
           <nav className="flex items-center space-x-4">
             <Link href="/" className="text-sm font-medium">
-              커뮤니티
+              SPACE
             </Link>
           </nav>
         </div>
