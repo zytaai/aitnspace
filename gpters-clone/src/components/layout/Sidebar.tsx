@@ -85,34 +85,7 @@ const Sidebar = () => {
           </nav>
         </div>
 
-        {/* Writing Section */}
-        <div className="mt-6">
-          <h3 className="px-6 text-xs font-medium text-gray-500 uppercase tracking-wider">
-            글쓰기 ✏️
-          </h3>
-          <nav className="mt-2 space-y-1 px-4">
-            <Link
-              href="/write"
-              className="flex items-center space-x-2 px-3 py-2 text-sm rounded-md bg-blue-500 hover:bg-blue-600 text-white font-medium"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                />
-              </svg>
-              <span>새 글 작성하기</span>
-            </Link>
-          </nav>
-        </div>
+        
       </div>
     </aside>
   );

@@ -9,7 +9,7 @@ import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'AI 커뮤니티 - AITN',
+  title: 'AITN SPACE',
   description: 'AI에 대한 정보와 활용사례를 나누는 커뮤니티입니다.',
 };
 

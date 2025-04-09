@@ -12,7 +12,7 @@ const Header = () => {
         <div className="flex items-center space-x-6">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
+            <div className="w-8 h-8 rounded-full bg-[#4fd1c5] flex items-center justify-center text-white">
               AI
             </div>
           </Link>
@@ -57,7 +57,7 @@ const Header = () => {
           <Button variant="outline" size="sm" className="rounded-full">
             로그인
           </Button>
-          <Button size="sm" className="rounded-full">
+          <Button size="sm" className="rounded-full bg-[#4fd1c5] hover:bg-[#45b8ac]">
             가입
           </Button>
         </div>
