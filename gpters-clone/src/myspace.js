@@ -1,0 +1,1 @@
+// MySpace post list and write
