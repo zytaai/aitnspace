@@ -1,0 +1,1 @@
+// Component for post creation form
