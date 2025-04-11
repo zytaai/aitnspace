@@ -28,7 +28,7 @@ export default function RootLayout({
             <main className="flex-1 p-4 bg-[#f5f5f6]">{children}</main>
           </div>
           <footer className="px-6 py-3 text-xs text-center text-gray-500 border-t">
-            <span>Copyright 2025</span>
+            <span>© 2025 AI Space</span>
           </footer>
         </div>
       </body>
